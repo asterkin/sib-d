@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo dnf update -y kernel*
+sudo dnf install -y kernel-devel-$(uname -r)
+echo "Reboot manually!"
+
+
